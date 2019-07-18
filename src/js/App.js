@@ -1,10 +1,11 @@
 import React from 'react'
+import Background from './components/Background'
 
 const App = () => {
   return (
-    <div>
-      <i className="material-icons">face</i>
-    </div>
+    <>
+      <Background />
+    </>
   )
 }
 

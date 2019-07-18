@@ -1,0 +1,24 @@
+{
+  "is_online":true,
+  "ip":"game-fr-10.mtxserv.com",
+  "port":"27180",
+  "game":"minecraft",
+  "params":{
+    "gametype":"SMP",
+    "host_name":"Le serveur des zizi",
+    "map":"world",
+    "max_slots":"20",
+    "password":false,
+    "players":[
+      {"player":"Gobliprane","gq_name":"Gobliprane"}
+    ],
+    "plugins":"Paper on 1.14.3-R0.1-SNAPSHOT",
+    "type":"minecraft",
+    "used_slots":"1",
+    "version":"1.14.3"
+  },
+  "current_clients":"1",
+  "is_fetch":true,
+  "loaded":true,
+  "state":null
+}
