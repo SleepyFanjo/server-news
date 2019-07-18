@@ -1,8 +1,13 @@
 import React from 'react'
 import backgroundUrl from 'assets/background.png'
 
-const Background = () => (
-  <div className='Background__container' style={`background-image: url(${backgroundUrl})`} />
+const Background = ({ children }) => (
+  <div
+    className="Background__container"
+    style={{ backgroundImage: `url(${backgroundUrl})` }}
+  >
+    {children}
+  </div>
 )
 
 export default Background

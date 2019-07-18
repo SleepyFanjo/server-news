@@ -1,0 +1,19 @@
+.Header {
+  &__container {
+    @include mdc-elevation(6);
+    position: fixed;
+    top: 0;
+    background: $color-primary;
+    height: 80px;
+    line-height: 80px;
+    left: 0;
+    right: 0;
+  }
+
+  &--title {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+  }
+}

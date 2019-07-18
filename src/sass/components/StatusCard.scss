@@ -1,0 +1,34 @@
+.StatusCard {
+  &__wrapper {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 80px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  &__container {
+    @include mdc-elevation(6);
+    transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
+    cursor: pointer;
+
+    &:hover {
+      @include mdc-elevation(9);
+      transform: scale(1.05);
+    }
+
+    &.loading.offline {
+      background: $color-primary;
+    }
+
+    &.offline {
+      background: #ba3c1c;
+    }
+
+    color: white;
+    background: $color-primary;
+    border-radius: 7px;
+    padding: 20px;
+  }
+}

@@ -43,6 +43,12 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+#react-app {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -58,4 +64,6 @@ code {
     monospace;
 }
 
-@import 'components/Background'
+@import 'components/Background';
+@import 'components/Header';
+@import 'components/StatusCard';

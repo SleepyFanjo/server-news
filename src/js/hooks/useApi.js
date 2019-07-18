@@ -10,7 +10,6 @@ const useApi = dataLocation => {
     const loadData = () => {
       setLoading(true)
       setErrors(null)
-
       return fetchData(dataLocation)
         .then(result => {
           setData(result)
