@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ab07caca6386314632b593a4e991b49",
+    "revision": "bc8c18342d207de8266e2ad26fd368b4",
     "url": "/server-news/index.html"
   },
   {
-    "revision": "1d3ea156a5dd70759dd7",
-    "url": "/server-news/static/css/main.f8b9d259.chunk.css"
+    "revision": "ba98ac11a1f596067b10",
+    "url": "/server-news/static/css/main.ae1f3b4f.chunk.css"
   },
   {
-    "revision": "cb3172cd3b50fb1f7f2b",
-    "url": "/server-news/static/js/2.2b91e2f1.chunk.js"
+    "revision": "d2683e9a8d1080eb13e5",
+    "url": "/server-news/static/js/2.4fcb984e.chunk.js"
   },
   {
-    "revision": "1d3ea156a5dd70759dd7",
-    "url": "/server-news/static/js/main.c0543e4e.chunk.js"
+    "revision": "ba98ac11a1f596067b10",
+    "url": "/server-news/static/js/main.58c8b6d4.chunk.js"
   },
   {
     "revision": "bbf885703da7047769c3",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "824c31a5caefd5ca8bdffb1b1b9843e2",
     "url": "/server-news/static/media/background.824c31a5.png"
+  },
+  {
+    "revision": "8eb9e802fd5b130a80bc16521312339e",
+    "url": "/server-news/static/media/minecraft.8eb9e802.ico"
   }
 ]);
