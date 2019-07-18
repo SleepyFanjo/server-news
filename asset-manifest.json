@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/server-news/static/css/main.f8b9d259.chunk.css",
+    "main.js": "/server-news/static/js/main.c0543e4e.chunk.js",
+    "main.js.map": "/server-news/static/js/main.c0543e4e.chunk.js.map",
+    "runtime~main.js": "/server-news/static/js/runtime~main.567dc47f.js",
+    "runtime~main.js.map": "/server-news/static/js/runtime~main.567dc47f.js.map",
+    "static/js/2.2b91e2f1.chunk.js": "/server-news/static/js/2.2b91e2f1.chunk.js",
+    "static/js/2.2b91e2f1.chunk.js.map": "/server-news/static/js/2.2b91e2f1.chunk.js.map",
+    "index.html": "/server-news/index.html",
+    "precache-manifest.a352f9c1ef445141cebd0999cf760f69.js": "/server-news/precache-manifest.a352f9c1ef445141cebd0999cf760f69.js",
+    "service-worker.js": "/server-news/service-worker.js",
+    "static/css/main.f8b9d259.chunk.css.map": "/server-news/static/css/main.f8b9d259.chunk.css.map",
+    "static/media/index.scss": "/server-news/static/media/MaterialIcons-Regular.e79bfd88.eot",
+    "static/media/background.png": "/server-news/static/media/background.824c31a5.png"
+  }
+}
