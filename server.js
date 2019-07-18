@@ -22,7 +22,6 @@ app.get("/status", (req, res) => {
     return rp(`https://mtxserv.com/api/v1/viewers/game?type=minecraft&ip=game-fr-10.mtxserv.com&port=27180&access_token=${access_token}`, { json: true })
   })
   .then(data => {
-    console.log(data.body)
     return res.json(data.body)
   })
   .catch(err => {
