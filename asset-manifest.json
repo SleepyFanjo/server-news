@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/server-news/static/css/main.ae1f3b4f.chunk.css",
-    "main.js": "/server-news/static/js/main.58c8b6d4.chunk.js",
-    "main.js.map": "/server-news/static/js/main.58c8b6d4.chunk.js.map",
+    "main.css": "/server-news/static/css/main.93ead096.chunk.css",
+    "main.js": "/server-news/static/js/main.16302a02.chunk.js",
+    "main.js.map": "/server-news/static/js/main.16302a02.chunk.js.map",
     "runtime~main.js": "/server-news/static/js/runtime~main.567dc47f.js",
     "runtime~main.js.map": "/server-news/static/js/runtime~main.567dc47f.js.map",
     "static/js/2.4fcb984e.chunk.js": "/server-news/static/js/2.4fcb984e.chunk.js",
     "static/js/2.4fcb984e.chunk.js.map": "/server-news/static/js/2.4fcb984e.chunk.js.map",
     "index.html": "/server-news/index.html",
-    "precache-manifest.52ca650f4f1f9c45861ed71a87145d79.js": "/server-news/precache-manifest.52ca650f4f1f9c45861ed71a87145d79.js",
+    "precache-manifest.ee01aeb9ac33b43c61fde8b9ac735bc8.js": "/server-news/precache-manifest.ee01aeb9ac33b43c61fde8b9ac735bc8.js",
     "service-worker.js": "/server-news/service-worker.js",
-    "static/css/main.ae1f3b4f.chunk.css.map": "/server-news/static/css/main.ae1f3b4f.chunk.css.map",
+    "static/css/main.93ead096.chunk.css.map": "/server-news/static/css/main.93ead096.chunk.css.map",
     "static/media/index.scss": "/server-news/static/media/MaterialIcons-Regular.e79bfd88.eot",
     "static/media/background.png": "/server-news/static/media/background.824c31a5.png",
     "static/media/minecraft.ico": "/server-news/static/media/minecraft.8eb9e802.ico"
