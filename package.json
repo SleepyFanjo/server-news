@@ -1,20 +1,27 @@
 {
-  "name": "chatbot",
-  "version": "0.1.0",
+  "name": "server-news",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://sleepyfanjo.github.io/server-news",
   "dependencies": {
+    "@material/elevation": "^1.1.0",
+    "classnames": "^2.2.6",
+    "normalize.css": "^8.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",
-    "normalize.css": "^8.0.1"
+    "react-transition-group": "^4.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.5",
     "node-sass": "^4.11.0",
