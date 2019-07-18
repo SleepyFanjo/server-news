@@ -64,6 +64,53 @@ code {
     monospace;
 }
 
+.loading-text {
+  height: 18px;
+  width: 100%;
+  position: relative;
+
+  background: linear-gradient(270deg, #c4cdb8, #dcdcdc);
+  background-size: 400% 400%;
+
+  -webkit-animation: LoadingText 1s ease infinite;
+  -moz-animation: LoadingText 1s ease infinite;
+  animation: LoadingText 1s ease infinite;
+
+  @-webkit-keyframes LoadingText {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @-moz-keyframes LoadingText {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes LoadingText {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
 @import 'components/Background';
 @import 'components/Header';
 @import 'components/StatusCard';

@@ -41,6 +41,7 @@ const StatusCard = () => {
                 <img
                   className="StatusCard__infoItem--icon"
                   src={minecraftIcon}
+                  alt="Minecract version"
                 />
               }
               text={path(['params', 'version'], data)}

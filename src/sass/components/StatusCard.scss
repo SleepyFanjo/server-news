@@ -67,10 +67,20 @@
     position: relative;
     margin-bottom: 5px;
     text-align: center;
+
+    > .loading-text {
+      width: 60%;
+      display: inline-block;
+    }
   }
 
   &--status {
     text-align: center;
+
+    > .loading-text {
+      width: 60%;
+      display: inline-block;
+    }
   }
 
   &__infoItem {
@@ -84,6 +94,10 @@
       line-height: 24px;
       color: $color-secondary;
       margin-right: 10px;
+    }
+
+    &--text > .loading-text {
+      width: 100px;
     }
   }
 }
