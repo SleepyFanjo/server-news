@@ -1,8 +1,10 @@
 import { urls } from './data-location'
 import serverStatus from './mock/server-status.json'
+import news from './mock/news.json'
 
 const jsonData = {
-  'server-status': serverStatus
+  'server-status': serverStatus,
+  news: news
 }
 
 const FETCH_MODES = {

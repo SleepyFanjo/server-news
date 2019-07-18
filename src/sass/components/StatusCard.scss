@@ -12,6 +12,12 @@
     @include mdc-elevation(6);
     transition: transform 0.2s ease-in, box-shadow 0.2s ease-in;
     cursor: pointer;
+    color: white;
+    background: $color-primary;
+    border-radius: 7px;
+    padding: 20px;
+    width: calc(100% - 20px);
+    max-width: 600px;
 
     &:hover {
       @include mdc-elevation(9);
@@ -25,10 +31,59 @@
     &.offline {
       background: #ba3c1c;
     }
+  }
 
-    color: white;
-    background: $color-primary;
-    border-radius: 7px;
-    padding: 20px;
+  &__infos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    > div {
+      flex: 1;
+      position: relative;
+      padding: 0 25px;
+    }
+
+    &--title {
+      color: $color-secondary;
+      font-weight: bold;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: -15px;
+      height: 2px;
+      background: $color-secondary;
+      width: 90%;
+      left: 0;
+      transform: translateX(5%);
+    }
+  }
+
+  &--title {
+    font-size: 1.3rem;
+    position: relative;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  &--status {
+    text-align: center;
+  }
+
+  &__infoItem {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+    &--icon {
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+      color: $color-secondary;
+      margin-right: 10px;
+    }
   }
 }
