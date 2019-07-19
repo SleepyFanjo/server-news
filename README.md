@@ -3,6 +3,7 @@
 This project is a small web app that displays a minecraft server status (up/down, version, connected players) aswell as an interactive map in background.
 
 Frontend done with React + SASS
+
 Api server with node and using the MtxServer API
 
 ## Resources
