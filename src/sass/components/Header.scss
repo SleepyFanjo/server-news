@@ -8,6 +8,26 @@
     line-height: 80px;
     left: 0;
     right: 0;
+    z-index: 2;
+    transition: transform 0.3s ease-in;
+
+    &.hidden {
+      transform: translateY(-80px);
+    }
+  }
+
+  &--mapDisplay {
+    position: absolute;
+    bottom: -29px;
+    color: white;
+    background: $color-primary;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+    cursor: pointer;
   }
 
   &--title {

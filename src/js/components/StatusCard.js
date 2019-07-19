@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import useApi from 'js/hooks/useApi'
 import path from 'ramda/src/path'
 
@@ -7,8 +7,20 @@ import minecraftIcon from 'assets/minecraft.ico'
 
 const ressource = { urlKey: 'status' }
 
-const StatusCard = () => {
+const StatusCard = ({ display }) => {
   let { data, loading } = useApi(ressource)
+  let [wrapperHidden, setWrapperHidden] = useState(!display)
+
+  useEffect(() => {
+    if (display === true) {
+      setWrapperHidden(false)
+    } else {
+      setTimeout(() => {
+        setWrapperHidden(true)
+      }, 400)
+    }
+  }, [display])
+
   if (!data) {
     data = {}
   }
@@ -16,11 +28,11 @@ const StatusCard = () => {
   let players = path(['params', 'players'], data) || []
 
   return (
-    <div className="StatusCard__wrapper">
+    <div className={`StatusCard__wrapper ${wrapperHidden ? 'hidden' : ''}`}>
       <div
         className={`StatusCard__container ${loading ? 'loading ' : ''}${
           data.is_online ? 'online' : 'offline'
-        }`}
+        } ${display ? '' : 'hidden'}`}
       >
         <div className="StatusCard--title">
           <LoadableText loading={loading}>
@@ -66,7 +78,7 @@ const StatusCard = () => {
                 key={index}
                 icon={
                   <i className="material-icons StatusCard__infoItem--icon">
-                    {player.player === 'Bloper' ? 'accessible' : 'face'}
+                    face
                   </i>
                 }
                 text={player.player}

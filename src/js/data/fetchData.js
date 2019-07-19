@@ -12,7 +12,7 @@ const FETCH_MODES = {
   url: 'url'
 }
 
-const SELECTED_FETCH_MODE = FETCH_MODES.url
+const SELECTED_FETCH_MODE = FETCH_MODES.mock
 
 const fetchData = dataLocation => {
   const location = urls[dataLocation.urlKey](dataLocation)
