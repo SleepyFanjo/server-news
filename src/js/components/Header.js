@@ -11,7 +11,7 @@ const Header = ({ isMapFocused, setMapFocused }) => {
         onClick={() => setMapFocused(!isMapFocused)}
       >
         <span className="material-icons">
-          {isMapFocused ? 'keyboard_arrow_down' : 'map'}
+          {isMapFocused ? 'keyboard_arrow_down' : 'keyboard_arrow_up'}
         </span>
       </button>
     </div>

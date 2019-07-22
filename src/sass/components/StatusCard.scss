@@ -23,6 +23,8 @@
     border-radius: 7px;
     padding: 20px;
     width: calc(100% - 20px);
+    max-height: calc(100vh - 200px);
+    overflow-y: scroll;
     max-width: 600px;
     z-index: 2;
     &.hidden {
