@@ -86,6 +86,22 @@ const StatusCard = ({ display }) => {
             ))}
           </div>
         </div>
+        <div className="StatusCard__infos">
+          <div className="StatusCard--title">
+            <LoadableText loading={loading}>
+              Ouais super, y'a plus de serveur vanilla pour l'instant parce que
+              on jouait plus. <br />
+              <br />
+              Je vais mettre la map en téléchargement bientôt ici pour ceux qui
+              veulent continuer la map en solo
+              <br />
+              <br />
+              Ca c'est mon serveur Ragnamod 5, si vous voulez venir viendez. Si
+              vous voulez un autre modpack ca peut se négocier :D
+              <br />
+            </LoadableText>
+          </div>
+        </div>
       </div>
     </div>
   )

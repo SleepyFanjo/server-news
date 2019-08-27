@@ -33,7 +33,7 @@ const getStatus = () => {
   .then((token) => {
     const { access_token } = token
 
-    return rp(`https://mtxserv.com/api/v1/viewers/game?type=minecraft&ip=game-fr-10.mtxserv.com&port=27180&access_token=${access_token}`, { json: true })
+    return rp(`https://mtxserv.com/api/v1/viewers/game?type=minecraft&ip=game-fr-66.mtxserv.com&port=27070&access_token=${access_token}`, { json: true })
   })
   .then(data => {
     return data.body

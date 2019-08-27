@@ -5,7 +5,7 @@ const Header = ({ isMapFocused, setMapFocused }) => {
     <div
       className={`Header__container ${isMapFocused ? 'hidden' : 'displayed'}`}
     >
-      <h1 className="Header--title">Server News</h1>
+      <h1 className="Header--title">Ragnamod V</h1>
       <button
         className="Header--mapDisplay"
         onClick={() => setMapFocused(!isMapFocused)}
